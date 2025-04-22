@@ -11,7 +11,9 @@
     "./input": "./src/input.tsx",
     "./label": "./src/label.tsx",
     "./theme": "./src/theme.tsx",
-    "./toast": "./src/toast.tsx"
+    "./toast": "./src/toast.tsx",
+    "./card": "./src/card.tsx",
+    "./login-form": "./src/login-form.tsx"
   },
   "license": "MIT",
   "scripts": {

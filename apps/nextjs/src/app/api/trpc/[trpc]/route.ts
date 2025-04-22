@@ -28,6 +28,8 @@ const handler = async (req: NextRequest) => {
     headers: req.headers,
   });
 
+  console.log(session);
+
   const response = await fetchRequestHandler({
     endpoint: "/api/trpc",
     router: appRouter,
