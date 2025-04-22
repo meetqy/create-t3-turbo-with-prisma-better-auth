@@ -9,6 +9,7 @@
   "scripts": {
     "build": "turbo run build",
     "clean": "git clean -xdf node_modules",
+    "start:nextjs": "turbo -F @acme/nextjs start",
     "clean:workspaces": "turbo run clean",
     "db:generate": "turbo -F @acme/db generate",
     "db:migrate": "turbo -F @acme/db migrate",
