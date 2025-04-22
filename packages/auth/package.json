@@ -19,6 +19,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@acme/db": "workspace:^",
     "@t3-oss/env-nextjs": "^0.12.0",
     "better-auth": "^1.2.4",
     "next": "catalog:",
